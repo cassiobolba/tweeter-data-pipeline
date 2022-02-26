@@ -1,0 +1,113 @@
+2021-02-28 13:40:27,055:ERROR:log_module:Error Creating list of files to processname 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-13-96da7df422b4>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 13:40:29,727:ERROR:log_module:Error Creating list of files to processname 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-14-96da7df422b4>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 13:40:29,727:ERROR:log_module:Error Creating list of files to processname 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-14-96da7df422b4>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 13:40:40,111:ERROR:log_module:Error Creating list of files to process
+name 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-15-a2a853e66f48>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 13:40:40,111:ERROR:log_module:Error Creating list of files to process
+name 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-15-a2a853e66f48>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 13:40:40,111:ERROR:log_module:Error Creating list of files to process
+name 'date_since' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-15-a2a853e66f48>", line 8, in <module>
+    logger_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today)
+NameError: name 'date_since' is not defined
+2021-02-28 14:01:10,340:INFO:log_module:Hashtag search was sucessfull from 2021-02-20 to 2021-02-28 !
+2021-02-28 14:01:11,680:INFO:log_module:Hashtag search generated file flixBus#2021-02-28 from 2021-02-20 to 2021-02-28 !
+2021-02-28 14:01:11,680:INFO:log_module:Hashtag search generated file flixBus#2021-02-28 from 2021-02-20 to 2021-02-28 !
+2021-02-28 14:01:37,091:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:01:37,091:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:01:37,091:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:01:37,091:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:03:00,500:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:03:00,500:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:03:00,500:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:03:00,500:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:03:00,500:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:17:39,719:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:43:20,640:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:43:20,681:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 14:43:20,681:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 14:44:09,615:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:45:11,437:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 14:45:11,488:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 14:45:11,488:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 16:50:57,007:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 16:50:57,044:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 16:50:57,044:INFO:log_module:Files loaded were sucessfully processed!
+2021-02-28 16:54:17,911:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 16:55:10,091:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 16:55:10,129:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 83, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv', encoding = 'utf-8')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+2021-02-28 16:55:10,129:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 83, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv', encoding = 'utf-8')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+2021-02-28 16:56:43,966:INFO:log_module:Hashtag search was sucessfull from 2021-02-20 to 2021-02-28 !
+2021-02-28 16:56:44,825:INFO:log_module:Hashtag search generated file flixBus#2021-02-28 from 2021-02-20 to 2021-02-28 !
+2021-02-28 16:56:44,825:INFO:log_module:Hashtag search generated file flixBus#2021-02-28 from 2021-02-20 to 2021-02-28 !
+2021-02-28 16:57:09,592:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 16:58:56,785:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 16:58:56,785:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 17:01:20,058:INFO:log_module:File flixBus#2021-02-28.parquet.gzip loaded to process!
+2021-02-28 17:01:20,096:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 83, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv', encoding = 'utf-8')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+2021-02-28 17:01:20,096:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 83, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv', encoding = 'utf-8')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-02-28.csv'

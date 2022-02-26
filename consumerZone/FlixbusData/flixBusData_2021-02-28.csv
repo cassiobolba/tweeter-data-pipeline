@@ -1,0 +1,32 @@
+﻿,tweetId,userId,location,userFollowers,createdAt,userTweets,isRetweet
+0,1365798882177937408,b'|]\x1dC\xb0\xa1\x0eV\x90\xae\xbe\x98@I\\\x80',Im besten Teil von Augsburg,88,2021-02-27 23:00:03,42901,True
+1,1365604173698498568,b's\x04\x18\x16\xa2n\x9f\xa1:\xc1\x86rb\xd9\xa4O',"Oberhausen, Deutschland",355,2021-02-27 10:06:21,16048,True
+2,1365517105429381122,b'\x99\xday\x84\xac\xe4\xf4\xbeC4Mwb\x13@\x9c',Deutschland,3789,2021-02-27 04:20:22,7693,False
+3,1365313179283304449,b'\xe1/\xaek]\xa5\xcd\xf6\x824\xe1\xe6\x90\x9e@&',"Rome, Italy",1609,2021-02-26 14:50:02,8031,False
+4,1365303178644893697,b'\x0e\x8bm_}\x0e\x84y.\xba\x01\x85\xfb\xf0\x84%',,2799,2021-02-26 14:10:18,215662,True
+5,1365303178053488645,b' \xa5\xd6x\x18\xf4f{\xb0bu=P\xfb?g',,2258,2021-02-26 14:10:18,188238,True
+6,1365302181340082181,b'\x9d\xa0\xc6\xdc\x80\xafh\xe3\xc1\x91\xf7~i\xcdYk',,22,2021-02-26 14:06:20,590,False
+7,1365235252290084865,b'x\x18\xb4\xa2\xa1aYrN\x94N\xac\xaa\x03\xe4\x18',"Lyon, France",74,2021-02-26 09:40:23,1199,False
+8,1365216288428208130,b'\xe1/\xaek]\xa5\xcd\xf6\x824\xe1\xe6\x90\x9e@&',"Rome, Italy",1609,2021-02-26 08:25:02,8031,False
+9,1364795467624828930,b'S\x00\xc6R\xbc\xcca\x9c\x07\x9eF\x91cF\xd6\x0c',,2618,2021-02-25 04:32:50,1413810,False
+10,1364694318510985221,b'\xbe\xeeT-\xc2\x9aF\xf4P\xf1\x1a\x91@\xc4\x10\xbb',Metaverse,862,2021-02-24 21:50:54,91437,True
+11,1364693333931532290,b'\x86VH5\xbe\x80l\x14w\xf2\x96\x1c\x9fNY[',sales@ncrypted.com,10193,2021-02-24 21:47:00,5619,False
+12,1364380897714315264,b'\xbe\xeeT-\xc2\x9aF\xf4P\xf1\x1a\x91@\xc4\x10\xbb',Metaverse,862,2021-02-24 01:05:29,91437,True
+13,1364379264280240131,b'\x86VH5\xbe\x80l\x14w\xf2\x96\x1c\x9fNY[',sales@ncrypted.com,10193,2021-02-24 00:59:00,5619,False
+14,1364287146065035267,b'\xcb\xc5\xc5\x88b\x1a\x0f}\xc6\xb7~\xc8\xbaC%r',,608,2021-02-23 18:52:57,7137,True
+15,1364220480467521544,b'C\xf76\xb3\x08B\x96+\x0c>\x8c\xb3\x1dLH\xa1',"Dolnośląskie, Poland",411,2021-02-23 14:28:03,50862,True
+16,1364213896618385411,b'aL\xcb\xedc)b\xc4\xac\x01g%N\xa2C\x8b',"Rome, Italy",5203,2021-02-23 14:01:53,14744,False
+17,1364202397397110795,b'\x01{\xd8\xa0\xb13\xdcCkdb\x7f\xa4\x94\xc21',,777,2021-02-23 13:16:11,5655,True
+18,1364190137035423744,b'aL\xcb\xedc)b\xc4\xac\x01g%N\xa2C\x8b',"Rome, Italy",5203,2021-02-23 12:27:28,14744,True
+19,1364189272341942272,b'>\x8a\x17\t\x01rZ\xde\x94\xab\x0b\xdc\xdbc\xb1\x9c',,972,2021-02-23 12:24:02,11888,False
+20,1364185469869830149,b'\xe6\xa8\xb2\xf8\x08\x9c\xcb\xcd\xfa_\xef\x18\x88h\xff\xec',,394,2021-02-23 12:08:56,19738,True
+21,1364184489803603969,b'\xe1\x9a\xa9\x8e\xec\x0e\xc8\xd6\xf0\x1c\xf77N>\xf98',,4760,2021-02-23 12:05:02,14866,False
+22,1364183846661537797,b'g\xf3gH[5lS\x11\xf7\xd7\xf2\xe0s\x92y',"Małopolskie, Poland",103,2021-02-23 12:02:29,759,True
+23,1364183834154201090,b'\xec\x84Q\xdcn\xaa\x011+q|\x92k\xed\xd8\x0b',Poland,944,2021-02-23 12:02:26,140377,True
+24,1364182187474575364,b'X!}\xd7M\xd9_\x15E\xb4\x0e\xa3sqi\x8e',Poland,611,2021-02-23 11:55:53,570,False
+25,1364157268422496257,b'\xd6\xa2M\x08\xdf\xdc\xb4\xf6\xe0u \x80`\xf6\x8f+',,3145,2021-02-23 10:16:52,36704,False
+26,1364150712561762306,b'\xd6\xa2M\x08\xdf\xdc\xb4\xf6\xe0u \x80`\xf6\x8f+',,3145,2021-02-23 09:50:49,36704,False
+27,1364004730297593859,b'\xa5\xb2\xf3^$\xf6\xf1\xde\xaa\x95\xb3\x07\xe6\xe0f\xf0',,13,2021-02-23 00:10:44,733,False
+28,1363972217856524291,b'Z\x9d\x81\x0f\xe1\xbc%\xd3\x97\xb43\xf9\xce\xad\xa19',,2053,2021-02-22 22:01:32,43420,True
+29,1363930809498034176,b'\x86VH5\xbe\x80l\x14w\xf2\x96\x1c\x9fNY[',sales@ncrypted.com,10193,2021-02-22 19:17:00,5619,False
+30,1363791688611868673,b'\x86-\x8c\xfa\x85|\x00\xce\x88\xcc\x16\x1f\xd0\xa0(\xeb',Italy,6465,2021-02-22 10:04:11,5260,False

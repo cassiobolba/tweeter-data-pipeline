@@ -1,0 +1,62 @@
+2021-03-03 06:42:10,178:INFO:log_module:Hashtag search was sucessfull from 2021-03-02 to 2021-03-03 !
+2021-03-03 06:42:12,235:INFO:log_module:Hashtag search generated file flixBus#2021-03-03 from 2021-03-02 to 2021-03-03 !
+2021-03-03 06:42:12,235:INFO:log_module:Hashtag search generated file flixBus#2021-03-03 from 2021-03-02 to 2021-03-03 !
+2021-03-03 06:42:24,731:INFO:log_module:File flixBus#2021-03-03.parquet.gzip loaded to process!
+2021-03-03 06:42:24,816:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+Traceback (most recent call last):
+  File "Transform.py", line 82, in <module>
+    df.to_csv(rf'c:Users\cassi\Desktop\Tweeter_Case\consumerZone\FlixbusData\flixBusData_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+2021-03-03 06:42:24,816:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+Traceback (most recent call last):
+  File "Transform.py", line 82, in <module>
+    df.to_csv(rf'c:Users\cassi\Desktop\Tweeter_Case\consumerZone\FlixbusData\flixBusData_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+2021-03-03 06:45:22,088:INFO:log_module:File flixBus#2021-03-03.parquet.gzip loaded to process!
+2021-03-03 06:45:22,103:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'C:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+Traceback (most recent call last):
+  File "Transform.py", line 81, in <module>
+    df.to_csv(rf"C:Users\cassi\Desktop\Tweeter_Case\consumerZone\FlixbusData\flixBusData_{today}.csv"
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+2021-03-03 06:45:22,103:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'C:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+Traceback (most recent call last):
+  File "Transform.py", line 81, in <module>
+    df.to_csv(rf"C:Users\cassi\Desktop\Tweeter_Case\consumerZone\FlixbusData\flixBusData_{today}.csv"
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:Users\\cassi\\Desktop\\Tweeter_Case\\consumerZone\\FlixbusData\\flixBusData_2021-03-03.csv'
+2021-03-03 06:47:35,100:INFO:log_module:File flixBus#2021-03-03.parquet.gzip loaded to process!
+2021-03-03 06:47:35,317:INFO:log_module:Files loaded were sucessfully processed!
+2021-03-03 06:47:35,317:INFO:log_module:Files loaded were sucessfully processed!
+2021-03-03 08:00:06,201:INFO:log_module:Hashtag search was sucessfull from 2021-03-02 to 2021-03-03 !
+2021-03-03 08:00:07,150:INFO:log_module:Hashtag search generated file flixBus#2021-03-03 from 2021-03-02 to 2021-03-03 !
+2021-03-03 08:00:07,150:INFO:log_module:Hashtag search generated file flixBus#2021-03-03 from 2021-03-02 to 2021-03-03 !
+2021-03-03 08:10:02,813:INFO:log_module:File flixBus#2021-03-03.parquet.gzip loaded to process!
+2021-03-03 08:10:02,831:INFO:log_module:Files loaded were sucessfully processed!
+2021-03-03 08:10:02,831:INFO:log_module:Files loaded were sucessfully processed!

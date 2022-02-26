@@ -1,0 +1,6 @@
+2021-03-05 08:00:24,591:INFO:log_module:Hashtag search was sucessfull from 2021-03-04 to 2021-03-05 !
+2021-03-05 08:00:26,821:INFO:log_module:Hashtag search generated file flixBus#2021-03-05 from 2021-03-04 to 2021-03-05 !
+2021-03-05 08:00:26,821:INFO:log_module:Hashtag search generated file flixBus#2021-03-05 from 2021-03-04 to 2021-03-05 !
+2021-03-05 08:10:03,349:INFO:log_module:File flixBus#2021-03-05.parquet.gzip loaded to process!
+2021-03-05 08:10:03,515:INFO:log_module:Files loaded were sucessfully processed!
+2021-03-05 08:10:03,515:INFO:log_module:Files loaded were sucessfully processed!

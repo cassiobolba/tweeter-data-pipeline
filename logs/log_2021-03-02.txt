@@ -1,0 +1,226 @@
+2021-03-02 08:00:19,094:INFO:log_module:Hashtag search was sucessfull from 2021-03-02 to 2021-03-02 !
+2021-03-02 08:00:19,094:INFO:log_module:Hashtag search generated no data from 2021-03-02 to 2021-03-02 !
+2021-03-02 08:00:19,094:INFO:log_module:Hashtag search generated no data from 2021-03-02 to 2021-03-02 !
+2021-03-02 08:04:44,077:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:06:35,858:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-01 !
+2021-03-02 08:06:35,858:INFO:log_module:Hashtag search generated no data from 2021-03-01 to 2021-03-01 !
+2021-03-02 08:06:35,858:INFO:log_module:Hashtag search generated no data from 2021-03-01 to 2021-03-01 !
+2021-03-02 08:08:01,342:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-01 !
+2021-03-02 08:08:01,342:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-01 !
+2021-03-02 08:08:26,478:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:08:26,478:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:08:26,478:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:08:55,579:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:08:55,597:ERROR:log_module:[Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 62, in <module>
+    df.to_parquet(f'rawZone/flixBus#{today}.parquet.gzip', compression='gzip')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2365, in to_parquet
+    to_parquet(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 270, in to_parquet
+    return impl.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 193, in write
+    self.api.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 938, in write
+    write_simple(filename, data, fmd, row_group_offsets,
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 792, in write_simple
+    with open_with(fn, mode) as f:
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\util.py", line 39, in default_open
+    return open(f, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+2021-03-02 08:08:55,597:ERROR:log_module:[Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 62, in <module>
+    df.to_parquet(f'rawZone/flixBus#{today}.parquet.gzip', compression='gzip')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2365, in to_parquet
+    to_parquet(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 270, in to_parquet
+    return impl.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 193, in write
+    self.api.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 938, in write
+    write_simple(filename, data, fmd, row_group_offsets,
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 792, in write_simple
+    with open_with(fn, mode) as f:
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\util.py", line 39, in default_open
+    return open(f, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+2021-03-02 08:10:01,822:INFO:log_module:File flixBus#2021-03-02.parquet.gzip was not available to process!
+2021-03-02 08:10:01,823:ERROR:log_module:Files loaded were not processed today 
+"['tweetId'] not in index"
+Traceback (most recent call last):
+  File "Transform.py", line 75, in <module>
+    dfHashtags = df[['tweetId','hashtags']]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2908, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1304, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['tweetId'] not in index"
+2021-03-02 08:10:01,823:ERROR:log_module:Files loaded were not processed today 
+"['tweetId'] not in index"
+Traceback (most recent call last):
+  File "Transform.py", line 75, in <module>
+    dfHashtags = df[['tweetId','hashtags']]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2908, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1304, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['tweetId'] not in index"
+2021-03-02 08:10:06,849:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:10:06,849:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:10:06,849:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:10:06,849:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:11:54,184:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:11:54,189:ERROR:log_module:[Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 63, in <module>
+    df.to_parquet(f'rawZone/flixBus#{today}.parquet.gzip', compression='gzip')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2365, in to_parquet
+    to_parquet(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 270, in to_parquet
+    return impl.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 193, in write
+    self.api.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 938, in write
+    write_simple(filename, data, fmd, row_group_offsets,
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 792, in write_simple
+    with open_with(fn, mode) as f:
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\util.py", line 39, in default_open
+    return open(f, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+2021-03-02 08:11:54,189:ERROR:log_module:[Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 63, in <module>
+    df.to_parquet(f'rawZone/flixBus#{today}.parquet.gzip', compression='gzip')
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\util\_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2365, in to_parquet
+    to_parquet(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 270, in to_parquet
+    return impl.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\parquet.py", line 193, in write
+    self.api.write(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 938, in write
+    write_simple(filename, data, fmd, row_group_offsets,
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\writer.py", line 792, in write_simple
+    with open_with(fn, mode) as f:
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\fastparquet\util.py", line 39, in default_open
+    return open(f, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'rawZone/flixBus#2021-03-02.parquet.gzip'
+2021-03-02 08:14:02,500:INFO:log_module:Hashtag search was sucessfull from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:14:03,173:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:14:03,173:INFO:log_module:Hashtag search generated file flixBus#2021-03-02 from 2021-03-01 to 2021-03-02 !
+2021-03-02 08:14:26,122:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:14:26,200:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:14:26,200:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:15:01,353:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:17:20,567:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:17:20,584:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:17:20,584:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:19:11,068:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:19:11,085:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:19:11,085:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:37:46,914:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:37:46,939:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:37:46,939:ERROR:log_module:Files loaded were not processed today 
+[Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Transform.py", line 84, in <module>
+    dfHashtags.to_csv(f'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_{today}.csv'
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\generic.py", line 3167, in to_csv
+    formatter.save()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'c:/Users/cassi/Desktop/Tweeter_Case/consumerZone/Hashtags/flixBusHastags_2021-03-02.csv'
+2021-03-02 08:41:04,577:INFO:log_module:File flixBus#2021-03-02.parquet.gzip loaded to process!
+2021-03-02 08:41:04,608:INFO:log_module:Files loaded were sucessfully processed!
+2021-03-02 08:41:04,608:INFO:log_module:Files loaded were sucessfully processed!

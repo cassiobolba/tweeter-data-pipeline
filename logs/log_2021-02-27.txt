@@ -1,0 +1,75 @@
+INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+ERROR:log_module:Twitter error response: status code = 401
+ERROR:log_module:Twitter error response: status code = 401
+Traceback (most recent call last):
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 45, in <module>
+    users_locs = [[
+  File "c:/Users/cassi/Desktop/Tweeter_Case/Extraction.py", line 45, in <listcomp>
+    users_locs = [[
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tweepy\cursor.py", line 51, in __next__
+    return self.next()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tweepy\cursor.py", line 243, in next
+    self.current_page = self.page_iterator.next()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tweepy\cursor.py", line 132, in next
+    data = self.method(max_id=self.max_id, parser=RawParser(), *self.args, **self.kwargs)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Twitter error response: status code = 401
+2021-02-27 20:48:23,706:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:49:38,160:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:50:36,170:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:51:19,475:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:51:20,167:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:51:20,167:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:41,675:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:42,318:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:42,318:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:57,972:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:58,774:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:56:58,774:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 20:59:38,282:ERROR:log_module:name 'text' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-4-a633f177c6bf>", line 9, in <module>
+    users_locs = [[
+  File "<ipython-input-4-a633f177c6bf>", line 10, in <listcomp>
+    text.id
+NameError: name 'text' is not defined
+2021-02-27 20:59:38,296:ERROR:log_module:name 'users_locs' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-6b94cd3f6dfc>", line 3, in <module>
+    if users_locs:
+NameError: name 'users_locs' is not defined
+2021-02-27 20:59:38,296:ERROR:log_module:name 'users_locs' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-6b94cd3f6dfc>", line 3, in <module>
+    if users_locs:
+NameError: name 'users_locs' is not defined
+2021-02-27 21:00:28,339:ERROR:log_module:name 'text' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-4-a633f177c6bf>", line 9, in <module>
+    users_locs = [[
+  File "<ipython-input-4-a633f177c6bf>", line 10, in <listcomp>
+    text.id
+NameError: name 'text' is not defined
+2021-02-27 21:00:28,351:ERROR:log_module:name 'users_locs' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-4a04cd2ee941>", line 3, in <module>
+    if users_locs:
+NameError: name 'users_locs' is not defined
+2021-02-27 21:00:28,351:ERROR:log_module:name 'users_locs' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-5-4a04cd2ee941>", line 3, in <module>
+    if users_locs:
+NameError: name 'users_locs' is not defined
+2021-02-27 21:01:55,713:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:55,713:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:55,713:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:58,374:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:58,374:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:58,374:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:01:58,374:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:03:45,484:INFO:log_module:Hashtag search was sucessfull from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:03:46,160:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !
+2021-02-27 21:03:46,160:INFO:log_module:Hashtag search generated file flixBus#2021-02-27 from 2021-02-19 to 2021-02-27 !

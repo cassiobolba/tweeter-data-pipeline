@@ -1,0 +1,28 @@
+2021-03-04 08:00:20,640:INFO:log_module:Hashtag search was sucessfull from 2021-03-03 to 2021-03-04 !
+2021-03-04 08:00:20,641:INFO:log_module:Hashtag search generated no data from 2021-03-03 to 2021-03-04 !
+2021-03-04 08:00:20,641:INFO:log_module:Hashtag search generated no data from 2021-03-03 to 2021-03-04 !
+2021-03-04 08:10:03,657:INFO:log_module:File flixBus#2021-03-04.parquet.gzip was not available to process!
+2021-03-04 08:10:03,726:ERROR:log_module:Files loaded were not processed today 
+"['tweetId'] not in index"
+Traceback (most recent call last):
+  File "Transform.py", line 74, in <module>
+    dfHashtags = df[['tweetId','hashtags']]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2908, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1304, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['tweetId'] not in index"
+2021-03-04 08:10:03,726:ERROR:log_module:Files loaded were not processed today 
+"['tweetId'] not in index"
+Traceback (most recent call last):
+  File "Transform.py", line 74, in <module>
+    dfHashtags = df[['tweetId','hashtags']]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2908, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1254, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "C:\Users\cassi\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexing.py", line 1304, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['tweetId'] not in index"
